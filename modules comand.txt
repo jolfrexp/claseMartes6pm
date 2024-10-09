@@ -1,0 +1,21 @@
+python -m venv modules
+entrar a escript y -activate
+devolverse a la carpeta modules con cd..
+pip install fastapi
+pip install mysql-connector-python
+pip install sqlalchemy
+pip install uvicorn
+
+´pip install -r reqeriments instala todas las librias que estan en el txt reqeriments
+
+comandos cmd 
+cd entrar a una carpeta
+cd .. devolver a la carpeta anterior
+dir ver que tiene la carpeta
+three ver todo dentro de la carpeta y subcarpetas
+mkdir <nombre_carpeta> crea una carpeta
+
+
+
+
+DTO manipula el modelo
