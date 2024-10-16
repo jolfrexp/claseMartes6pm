@@ -6,23 +6,26 @@ from datetime import date
 
 class UsuarioDTOPeticion(BaseModel):
     nombres : str
-    fechaNacimiento : date
-    ubicacion : str
-    metaAhorro : float
+    edad : int
+    telefono: str
+    correo : str
+    contraseña : str
+    fechaRegistro : date
+    ciudad : str
     class Config:   # trae la informacion de la BD
         orm_mode=True
 
 class UsuarioDTORespuesta(BaseModel):
     id : int
     nombres : str
-    metaAhorro : float
+    correo : str
+    fechaRegistro: date
     class Config:   
         orm_mode=True
 
 
 # gastoDTOPeticion
 class gastoDTOPeticion(BaseModel):
-    idGasto : int
     monto : int
     fecha : date
     descripcion : str

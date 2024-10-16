@@ -4,7 +4,7 @@ from sqlalchemy.engine import Engine
 
 #Conexion a la BD
 #nombreBD
-dataBaseName="gestordb"
+dataBaseName="gestorbd"
 
 #usuarioBD
 userName="root"
